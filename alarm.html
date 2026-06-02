@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Alarm Clock</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+
+<a href="index.html">Digital Clock</a>
+
+<a href="alarm.html">Alarm Clock</a>
+
+<a href="stopwatch.html">Stopwatch</a>
+
+<a href="worldclock.html">World Clocks</a>
+
+<button onclick="toggleTheme()">
+🌙 Dark / Light
+</button>
+
+<button onclick="goFullScreen()">
+⛶ Fullscreen
+</button>
+
+</nav>
+
+<div class="container">
+
+<h1>Alarm Clock</h1>
+
+<input type="time" id="alarmTime">
+
+<select id="ampm">
+
+<option>AM</option>
+
+<option>PM</option>
+
+</select>
+
+<button onclick="setAlarm()">
+Set Alarm
+</button>
+
+<p id="alarmStatus"></p>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

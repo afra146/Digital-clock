@@ -1,0 +1,155 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+min-height:100vh;
+}
+
+nav{
+background:#111827;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+padding:10px 15px;
+background:#1e293b;
+border-radius:8px;
+}
+
+.container{
+max-width:700px;
+margin:80px auto;
+padding:40px;
+text-align:center;
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(10px);
+border-radius:20px;
+}
+
+.clock{
+font-size:70px;
+font-weight:bold;
+margin:20px 0;
+}
+
+button{
+padding:10px 20px;
+margin:10px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+input{
+padding:10px;
+margin:10px;
+font-size:18px;
+}
+
+.light{
+background:white;
+color:black;
+}
+.light-mode{
+    background:#f5f5f5 !important;
+    color:#111 !important;
+}
+
+.light-mode nav{
+    background:#ffffff;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.light-mode .container{
+    background:rgba(255,255,255,0.9);
+    color:#111;
+}
+
+.nav-right{
+    margin-left:auto;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:15px;
+    padding:15px 25px;
+}
+
+.clock-small{
+    font-size:20px;
+    margin-top:10px;
+    opacity:.8;
+}
+.welcome-container{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b,
+    #334155
+    );
+}
+
+.glass-card{
+    text-align:center;
+    padding:50px;
+    border-radius:20px;
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(15px);
+    box-shadow:0 8px 32px rgba(0,0,0,.3);
+    width:90%;
+    max-width:600px;
+}
+
+.glass-card h1{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.glass-card p{
+    margin:10px 0;
+    font-size:1.1rem;
+}
+
+.enter-btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:14px 30px;
+    border-radius:10px;
+    text-decoration:none;
+    background:#22c55e;
+    color:white;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.enter-btn:hover{
+    transform:translateY(-3px);
+}
+.clock-box{
+    margin:20px;
+    padding:20px;
+    border-radius:15px;
+    background:rgba(255,255,255,0.08);
+}
+
+.clock-box p{
+    font-size:28px;
+    font-weight:bold;
+    margin-top:10px;
+}

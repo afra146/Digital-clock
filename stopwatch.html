@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Stopwatch</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+
+<a href="index.html">Digital Clock</a>
+
+<a href="alarm.html">Alarm Clock</a>
+
+<a href="stopwatch.html">Stopwatch</a>
+
+<a href="worldclock.html">World Clocks</a>
+
+<button onclick="toggleTheme()">
+🌙 Dark / Light
+</button>
+
+<button onclick="goFullScreen()">
+⛶ Fullscreen
+</button>
+
+</nav>
+
+<div class="container">
+
+<h1>Stopwatch</h1>
+
+<h2 id="stopwatch">00:00:00</h2>
+
+<button onclick="startStopwatch()">Start</button>
+
+<button onclick="stopStopwatch()">Stop</button>
+
+<button onclick="resetStopwatch()">Reset</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
